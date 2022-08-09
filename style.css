@@ -1,11 +1,20 @@
+
+
 /* Tag selector to select the 'body' element */
 body {
-  /* Your code here! */
+  background-color: #0096FF;
 }
 
 /* Tag selector to select all 'div' elements. We only have one 'div' in our HTML */
 div {
-  /* Your code here! */
+  background-color:white ;
+  align-items: center;
+  height: 400px;
+  width: 900px;
+  margin: -25px 0 0 -25px;
+  position: absolute;
+  top: 20%;
+  left: 25%;
 }
 
 /* ID selector to select the element with id 'main-header' */
@@ -16,5 +25,5 @@ div {
 
 /* Class selector to select elements containing the class 'perspective-questions' */
 .perspective-questions {
-  /* Your code here! */
+  font-style: italic;
 }
